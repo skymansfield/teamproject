@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import bootstrap full CSS -->
+    <link href="css/page2style.css" rel="stylesheet">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="item1">
+                <img class="nav-icon" src="../images/icons/Trees/trees-green-2.png" style="width:50; height:50px">
+            <a class="navAnchors navItemsLeft" href="../index.html">Home</a>
+            <img class="nav-icon" src="../images/icons/Programs/Leadership/leadership-pink.png" style="width:50px; height: 50px">
+            <a class="navAnchors navItemsLeft" href="#programs">Programs</a>
+            <img class="nav-icon" src="../images/icons/SignUp/Clipboard/clipboard-green-2.png" style="width:50px; height:50px">
+            <a class="navAnchors navItemsLeft" id="myBtn">Sign Up</a>
+            <img class="nav-icon" src="../images/icons/Contact/Envelope/envelope-hearts-green.png" style="width:60px; height:50px">
+            <a class="navAnchors navItemsLeft" href="#contact">Contact</a>
+            <img class="nav-icon" id="arrow-icon" src="../images/icons/Logo/arrow-green.png" style="width:68px; height:50px">
+            <a class="navAnchors navItemRight donateBtn" href="#">Donate</a>
+        </div>
+
+        <div class="item2">
+            <div class="text">GEN<em>ext</em>&Rrightarrow;
+            </div>
+            <div class="header2">Support the Next Generation </div>
+        </div>
+
+        <div class="donate-photo">
+
+
+        </div>
+
+        <div class="item3">
+            <h3 class="name3">Donate to GEN<em>ext</em></h3>
+            <p>Your donation of any amount will help fund a week at camp for a young woman. Thank you for supporting
+                our GENext women leaders. </p>
+            <br>
+            <br>
+            <button class="donate-btn">Donate</button>
+
+
+
+
+            <div id="donateModal" hidden>
+                <div class="modalContent">
+                    <span class="closeDonate">&times;</span>
+                    <div id="id01" class="modal">
+                        <!-- <div class="container"> -->
+                        <div class="donate-container">
+                            <form class="donate">
+
+                                <div id="donate-div">
+                                    <h3>Information</h3>
+                                    <label for="fname">Full Name</label><br>
+                                    <input type="text" id="fname" name="firstname" placeholder="John M. Doe"><br>
+                                    <label for="email">Email</label><br>
+                                    <input type="text" id="email" name="email" placeholder="john@example.com"><br>
+                                    <label for="adr">Address</label><br>
+                                    <input type="text" id="adr" name="address" placeholder="542 W. 15th Street"><br>
+                                    <label for="city">City</label><br>
+                                    <input type="text" id="city" name="city" placeholder="New York"><br>
+                                    <label for="state">State</label><br>
+                                    <input type="text" id="state" name="state" placeholder="NY"><br>
+                                    <label for="zip">Zip</label><br>
+                                    <input type="text" id="zip" name="zip" placeholder="10001"><br>
+
+                                </div>
+                                <div id="payment-div">
+
+                                    <h3>Payment</h3>
+                                    <label for="card">Card Type</label>
+                                    <div class="btn-container">
+                                        <label>
+                                            <input type="radio" name="cc" value="one">Visa
+                                            <input type="radio" name="cc" value="two">Mastercard
+                                            <input type="radio" name="cc" value="three">Discover
+                                            <input type="radio" name="cc" value="four">American
+                                            Express
+                                            <!-- <input type="radio" name="cc" value="five">PayPal -->
+                                        </label>
+                                    </div><br>
+
+                                    <label for="cname">Name on Card</label><br>
+                                    <input type="text" id="cname" name="cardname" placeholder="John More Doe"><br>
+                                    <label for="ccnum">Credit Card Number</label><br>
+                                    <input type="text" id="ccnum" name="cardnumber"
+                                        placeholder="1111-2222-3333-4444"><br>
+                                    <label for="expmonth">Expiration Date</label><br>
+
+                                    <input type="text" id="expyear" name="expyear" placeholder="month/year"><br>
+                                    <label for="ccv">CCV</label><br>
+                                    <input type="text" id="cvv" name="cvv" placeholder="352"><br>
+                                    <label for="pmt">Payment Amount</label><br>
+                                    <input type="text" id="pmt" name="pmt" placeholder="Donation Amount">
+                                </div>
+                        </div>
+                        <br> <button type="submit" id="submit-button" class="btn">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+
+
+
+        <div class="donate-photo2"></div>
+        <div class="item4">
+            <h2 class="header4">Ways you can get involved:</h2>
+            <ul class="list">
+                <li>Be a Camp Counselor</li>
+                <li>Teach a class</li>
+                <li>Donate resources</li>
+                <li>Become a mentor</li>
+            </ul>
+
+            <h3 id="contact-info">Contact Us:</h3>
+            <p class="info">Email: <a href="#" id="email">campgenext@genext.com </a><br>
+                Phone: 928-555-3250
+            </p>
+
+
+
+
+        </div>
+
+
+
+        <div class="item5">
+            <p>
+                Our vision is to provide motivation, education, and leadership opportunities for young women, while building
+                friendships, confidence, and skills that will last a lifetime.
+            </p>
+
+            <div id="social-media-div">
+                    <a href="#" target="_blank"><img class="social-media-pic"
+                            src="../images/icons/Social/Facebook/facebook-pink.png"></a>
+                    <a href="#" target="_blank"><img class="social-media-pic" id="twitter-pic"
+                            src="../images/icons/Social/Twitter/twitter-pink.png"></a>
+                    <a href="#" target="_blank"><img class="social-media-pic"
+                            src="../images/icons/Social/Instagram/instagram-pink.png"></a>
+    
+                </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+
+</html>
